@@ -1,0 +1,19 @@
+The FrozenLake environment is a simple grid-world problem commonly used in reinforcement learning for testing and developing algorithms. In this environment, an agent must navigate a frozen lake, represented as a grid, to reach a goal while avoiding holes in the ice. The environment is stochastic, meaning that the outcomes of actions have a random element.
+
+Here are some key details about the FrozenLake environment:
+
+Observation Space:
+
+The state space is discrete and represents the different grid positions on the frozen lake.
+Action Space:
+
+The action space is discrete and typically consists of four actions: 'Left,' 'Down,' 'Right,' and 'Up.'
+Rewards:
+
+The agent receives a reward of 1 if it reaches the goal, and 0 otherwise. Falling into a hole results in a reward of 0.
+Termination:
+
+An episode terminates when the agent reaches the goal or falls into a hole.
+Environment ID in OpenAI Gym:
+
+The FrozenLake environment is often referred to as 'FrozenLake-v1' in OpenAI Gym.
